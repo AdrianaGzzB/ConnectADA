@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding:100px;
+        background: url(./imagenes/fnegro.jpg); 
+        color:#fff;
+        font-family: sans-serif;
+    }
+    header ul{
+        display: flex;
+        position: relative;
+        justify-content: right;
+    }
+    header ul li{
+        list-style: none;
+    }
+    header ul li a{
+        display: inline-block;
+        color: rgb(17, 104, 141);
+        font-weight: 800;
+        text-decoration: none;
+        padding: 15px;
+        background: #fff;
+        border-radius: 160px;
+        border: 5px solid rgb(17, 104, 141);
+    }
+    header ul li a:hover{
+        color: #fff;
+        background: rgb(17, 104, 141);
+        border: 5px solid #fff;
+    }
+    .biografia{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .biografia img{
+        width: 30%;
+        margin-left: 100px;
+        display: flex;
+        float: left;
+    }
+    .biografia .parrafo{
+        position: relative;
+        width: 50%;
+        float: right;
+        margin-top: 50px;
+    }
+    .biografia .parrafo h2{
+        font-size: 3em;
+    }
+    .galeria{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .galeria img{
+        width: 40%;
+        display: flex;
+        float: left;
+        margin:0px 60px;
+        border-radius: 360px;
+        position: relative;
+        bottom: 20px;
+        top: -100px;
+    }
+    .galeria  h3{
+        position: relative;
+        background: rgb(17, 104, 141);
+        padding: 50px;
+        width: 100%;
+        font-size: 3em;
+        border-radius: 5px;
+    }
+    .servicios{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .servicios h3{
+        position: relative;
+        background: rgb(17, 104, 141);
+        padding: 50px;
+        width: 100%;
+        font-size: 3em;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        top: -150px;
+    }
+   .servicios .m-serv{
+        position: relative;
+        margin-left: 50px;
+        font-size: 2em;
+        display: flex;
+        float: left;
+        margin-top: -100px;
+        background: red;
+    }
+    .contacto h2{
+        font-size: 2em;
+        position: relative;
+        display: flex;
+        float:right;
+        background: rgb(17, 104, 141);
+        border-radius: 10px;
+     }
+     .contacto h2 a{
+        display: flex;
+        float: left;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        border: solid 2px #fff;
+     }
+     .contacto h2 a:hover{
+        color: rgb(41, 52, 57);
+        background: #fff;
+        border-radius: 10px;
+        border: 2px solid rgb(17, 104, 141);
+     }
+    .contacto h4{
+        font-size: 3em;
+        display: flex;
+        float: left;
+        background: rgb(17, 104, 141);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    iframe{
+        width: 30%;
+        display: flex;
+        float: right;
+        border-radius: 10px;
+    }
+ .foto:hover{
+    width: 800px;
+ }   
+
+.galeria1 p{
+    visibility: hidden;
+    font-size: 5em;
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: flex;
+    position: relative;
+    color:rgb(11, 174, 249);
+}
+.galeria1 img:hover{
+    opacity: .1;
+}
+.galeria1:hover p{
+    visibility: visible;
+    left: 200px;
+    top: 350px;
+}
+.galeria2 .family{
+    top: -210px;
+    display: flex;
+    position: relative;
+}
+.galeria2 img:hover{
+    opacity: .1;
+}
+.galeria2:hover p{
+visibility: visible;
+left: 150px;
+top: 150px;
+}
+.galeria2 p{
+    visibility: hidden;
+    font-size: 5em;
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: flex;
+    position: relative;
+    color:rgb(11, 174, 249);  
+}
+

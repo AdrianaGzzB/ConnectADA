@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+}
+.encabezado{
+    width: 45%;
+    background: rgb(126, 103, 243);
+    display:flex;
+    border-radius: 5px;
+}
+.encabezado h2{
+    padding: 15px;
+}
+.encabezado input{
+    display: flex;
+    padding: 5px;
+    float: right;
+}
+.msje textarea{
+    width: 45%;
+    height: 400px;
+    background: url(./fgris.png);
+    padding: 20px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,47 @@
+h1{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div p .rojolinea{
+    color: red;
+    text-decoration: underline;
+}
+
+div p .azul a {
+    color: blue;
+    text-decoration: underline;
+}
+
+h2 {
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo{
+    color: rgb(96, 166, 96);
+}
+div p .rosa{
+    color: palevioletred;
+}
+div p .morado{
+    color: purple;
+}
+h3{
+   color: rgb(98, 98, 227);     
+}
+
+.amarillo {
+    color: rgb(241, 222, 14);
+}
+.rojo {
+    color: red;
+}
+.verde {
+    color: green;
+}
+ 
+footer {
+    color: brown;
+    letter-spacing: 4px;
+    background-attachment: fixed;
+}

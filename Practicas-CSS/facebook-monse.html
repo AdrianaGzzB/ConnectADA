@@ -1,0 +1,92 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook App</title>
+    <link rel="stylesheet" href="./facebook-monse.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="diagonal"></div>
+        <header>
+            <a href="#" class="logo"><img src="./imagenes/facebook/logo.png" alt="logo Facebook"></a>
+        
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+
+            <a href="#" class="app">
+                <ion-icon name="arrow-down-outline"></ion-icon>Download App
+            </a>
+        </header>
+        <div class="contenedor">
+            <div class="text">
+                <h2>Facebook</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum officia nostrum dicta impedit
+                    voluptate consectetur dolore voluptatibus culpa illo, enim ipsa esse tempore repellat optio, sequi
+                    delectus illum incidunt at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo corporis exercitationem autem quibusdam fugit odit, esse amet cumque iure vitae ratione culpa doloribus facilis voluptates, dignissimos dolorum. Nulla, repellendus ipsam?</p>
+                <h4>Download the App</h4>
+                <a href="#" class="btn">
+                    <ion-icon name="logo-apple"></ion-icon>Apple Store
+                </a>
+                <a href="#" class="btn">
+                    <ion-icon name="logo-google-playstore"></ion-icon>Play Store
+                </a>
+            </div>
+            <div class="dots">
+                <span class="dot" style="flex-shrink: 10;"></span>
+                <span class="dot" style="flex-shrink: 10;"></span>
+                <span class="dot" style="flex-shrink: 10;"></span>
+                <span class="dot" style="flex-shrink: 10;"></span>
+                <span class="dot" style="flex-shrink: 10;"></span>
+            </div>
+            <div class="imgBox">
+                <img src="./imagenes/facebook/fb1.png" class="slides active">
+                <!-- <img src="img/fb2.png" class="slides">
+                <img src="img/fb3.png" class="slides">
+                <img src="img/fb4.png" class="slides">
+                <img src="img/fb5.png" class="slides"> -->
+            </div>
+            <ul class="sci">
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const slides = document.querySelectorAll('slides');
+        const dots = document.querySelectorAll('dot');
+
+        function SetActive(i) {
+            for (slide of slides)
+                slides.classList.remove('active');
+            slides[i].classList.add('active');
+        }
+    </script>
+
+
+</body>
+
+</html>

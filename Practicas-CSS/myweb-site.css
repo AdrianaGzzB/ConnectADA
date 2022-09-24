@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+body{
+    background: url(./imagenes/fgris2.png);
+    flex: auto;
+    margin: 10px;
+}
+.encabezado{
+    background-color: black;
+    color: aqua;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.encabezado h1{
+    font-size: 8vh;
+}
+.encabezado p{
+    font-size: 3vh;
+}
+.navegador{
+    background: aqua;
+    color: black;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navegador a{
+    text-decoration: none;
+    padding:8px;
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: black;
+}
+.navegador a:hover{
+    background:black;
+    color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid aqua;
+}
+
+.contenedor{
+    width: 100%;
+}
+.contenedor-1{
+    width:70%;
+    float: right;
+    overflow: hidden;
+}
+.contenedor-1 h1{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 6vh;
+    margin:15px;
+    padding: 5px;
+}
+.contenedor-1 p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 3vh;
+    padding: 20px;
+}
+.contenedor-1 img{
+    border: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+.contenedor-1 img:hover{
+   transform: translateY(-20px);    
+}
+
+.aside {
+    width: 30%;
+    float: left;
+    font-family: sans-serif;
+    text-align: left;
+    background: black;
+    overflow: hidden;
+}
+.aside h2{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 5vh;
+    margin:15px;
+    padding: 5px;
+    color: aqua;
+}
+.aside h5{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 3vh;
+    margin:15px;
+    padding: 5px;
+    color: aqua;
+}
+.aside .imagen img{
+    padding: 30px;
+    border-radius: 360px;
+}
+.aside .imagen img:hover{
+    opacity: .3;
+}
+.aside .imagen p{
+    font-size: 3vh;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 15px;
+    color: aqua;
+}
+.aside .imagen h3{
+    font-size: 4vh;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 15px;
+    color: aqua;
+}
+.aside .imagen123{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+@media(max-width:800px){
+    .aside {
+        float: bottom;
+        width: 100%;}
+    }
+@media(max-width:800px){
+        .contenedor-1{
+            width: 100%;
+        }
+}
+
+footer{
+    clear: both;
+    background:black;
+    color:aqua;
+    padding: 10px;
+    text-align: center;
+    text-decoration: double;
+    font-family: sans-serif;
+    font-size: 3vh;
+}

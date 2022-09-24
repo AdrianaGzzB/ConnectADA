@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding:100px;
+    display: flex;
+    background: #fff;
+}
+/*************header****************/
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    display: flex;
+    z-index: 1;
+    background: #fff;
+}
+header .logotipo{
+    width: 100%;
+    display: flex;
+} 
+header .logo{
+    position: relative;
+    width:15%;
+    float: left;
+}
+header .encabezado{
+    position: relative;
+    width: 50%;
+    padding: 10px;
+}
+header .encabezado h2{
+    font-size: 1.5em;
+}
+/************menu***************/
+.menu{
+    top:0px;
+    width: 100%;
+    height: 70px;
+    color: #333;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+}
+nav ul li{
+        height:100%;
+        list-style: none;
+        position: relative;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+nav ul li .boton{
+    background: rgb(47, 47, 248);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}  
+nav ul li .boton:hover{
+    color:rgb(47, 47, 248);
+    background: #fff;
+    border: 2px solid rgb(47, 47, 248);
+}  
+nav ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1em;
+    color: #333;
+    text-decoration: none;
+}
+nav ul li a.active{
+    color: rgb(170, 170, 205);
+}
+nav ul li a.active:hover{
+    color: #333;
+}
+nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    font-size: 1em;
+}
+nav ul li ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    margin-left: 18px;
+}
+nav ul li:hover ul{
+    visibility: visible;
+}
+/******************box********************/   
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.box .textBox{
+    position: relative;
+    max-width: 800px;
+    margin-top: 80px;
+}
+.box .textBox h1{
+    color:black;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.box .textBox .parrafo{
+    color: #333;
+    margin:30px 0;
+    width: 500px;
+}
+.box .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 2px solid rgb(47, 47, 248);
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.box .textBox a.azul{
+    background: rgb(47, 47, 248);
+    color: #fff;
+}
+.box .textBox a.blanco{
+    background: #fff;
+    color: rgb(47, 47, 248);
+}
+.box .textBox a.azul:hover{
+    background: #fff;
+    color: rgb(47, 47, 248);
+}
+.box .textBox a.blanco:hover{
+    background: rgb(47, 47, 248);
+    color: #fff;
+}
+.box .imagen{
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 60px;
+}
+/*************box1*******************/
+.box1{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding:  0 100px ;
+}
+.box1 h2{
+    font-size: 3em;
+}
+.row{
+    flex: 100%;
+    max-width: 100%;
+    margin: 5px;
+}
+.column{
+    display: flex;
+    flex-wrap: column;
+}
+.column .div1{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+.column .div1 .icon{
+    width: 25%;
+    max-width: 25%;
+    padding: 15px;
+    margin:0 150px;
+}
+.box1 .column h2{
+     font-size: 1em;
+}
+.box1 .column p{
+    margin: 35px;
+}
+.box1 .column a{
+    text-decoration: none;
+    color: rgb(47, 47, 248);
+}
+/**************box2***************/
+.box2{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    padding: 50px;
+    display: inline-block;
+}
+.box2 .titulo2{
+    background: rgb(213, 213, 249);
+    font-size: 2em;
+    width: 90%;
+    max-width: 90%;
+    text-align: left;
+    padding: 20px 0 0 80px;
+    margin-left: 100px;
+}
+.box2 .parrafo2{
+    flex: 70%;
+    max-width: 70%;
+    float: left;
+    background:rgb(213, 213, 249) ;
+    text-align: justify;
+    padding: 30px 180px 50px 80px;
+    margin: 0 0 0 100px;
+}
+.box2 .enlace2{
+    float: left;
+    flex: 30%;
+    max-width: 30%;
+    padding: 20px 163px 96px 0;
+    background: rgb(213, 213, 249);
+}
+.box2 a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid rgb(47, 47, 248);
+    border-radius: 5px;
+    background: rgb(47, 47, 248);
+    padding: 10px;
+}
+.box2 a:hover{
+    color: rgb(47, 47, 248);
+    background: #fff;
+}
+/***************box3***************/
+.box3{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(213, 213, 249);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.box3 .contacto3 img{
+    float: left;
+    margin-top: 50px ;
+    width: 20%;
+}
+.box3 .contacto3 p{
+    font-size: 1em;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.box3 .contacto3 span{
+    color: rgb(47, 47, 248);
+}
+.box3 .contacto3 a{
+    text-decoration: none;
+}
+.box3 .contacto3 .sp3{
+    font-size: .6em;
+    color: rgb(186, 182, 182);
+}
+.box3 .rds img{
+    padding:10px;
+    width: auto;
+}
+.box3 .pregunta3 h2{
+    font-size: 3em;
+}
+.box3 .pregunta3 a{
+    display: inline-block;
+    background: rgb(47, 47, 248);
+    color: #fff;
+    padding: 15px;
+    margin: 50px 80px 0 100px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.box3 .pregunta3 a:hover{
+    background: #fff;
+    color: rgb(47, 47, 248);
+    border: 2px solid rgb(47, 47, 248);
+}
+
+.box3  .enlace3 ul li{
+    list-style: none;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.box3 .enlace3 a{
+    text-decoration: none;
+    color: black;
+}
+.fixed{
+    width: auto;
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    bottom: 10px;
+    right: 0;
+}
+.fixed:hover{
+    opacity: .7;
+}

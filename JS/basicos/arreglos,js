@@ -1,0 +1,33 @@
+var miArreglo = ["John", 24];//aqui declaro una variable tipo objeto y arreglo,
+//entre corchetes van todos los elementos, pueden ser de cualquier tipo o combinados
+console.log(miArreglo);//imprime el arreglo
+
+var estudiantes = ["Nora", "Gino", "Emily", "Juan"];
+console.log(estudiantes);
+
+var notas = [95, 67, 89, 56];
+console.log(notas);
+
+var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];//es un arreglo de arreglo, tiene tres arreglos de elementos
+//los elementos siempre empiezan en la posicion 0
+console.log(miArreglo[0]); // [1, 2, 3]//el nombre del arreglo y la posicion que quiero imprimir
+console.log(miArreglo[1]); // [4, 5, 6]
+console.log(miArreglo[2]); // [7, 8, 9]
+console.log(miArreglo[0][0]); // 1 el primer corchete nos muestra la posicion de nuestro arreglo principal y el segundo
+// corchete nos indica la posicion dentro del primer corchete del valor que queremos
+console.log(miArreglo[0][1]); // 2
+console.log(miArreglo[0][2]); // 3
+
+var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9],['lunes', 'martes', 'miercoles','jueves','viernes']]; 
+// es un arrglo de arreglos, tiene 3 arreglos como elementos, los elemnetos siempre empiezan en la posicion 0
+// // console.log(miArreglo[0]); // [1, 2, 3]
+// // console.log(miArreglo[1]); // [4, 5, 6]
+// // console.log(miArreglo[2]); // [7, 8, 9]
+
+var miArreglo = [[1, 2, 3,['amarillo', 'verde', 'azul','rojo']], [4, 5, 6], [7, 8, 9],['lunes', 'martes', 'miercoles','jueves','viernes']]; 
+// es un arreglo de arreglos, tiene 3 arreglos como elementos, los elemnetos siempre empiezan en la posicion 0
+// // console.log(miArreglo[0]); // [1, 2, 3]
+// // console.log(miArreglo[1]); // [4, 5, 6]
+// // console.log(miArreglo[2]); // [7, 8, 9]
+// azul = al primer elemento = 0, dentro de este voy al elemento 3 donde estan los colores, y dentro de colores voy al elemento 2 que es el azul es la jeraquia para llegar a ese elemento paso por 3 elementos anidados
+

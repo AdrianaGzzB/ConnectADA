@@ -1,0 +1,68 @@
+body {
+    background: url(./imagenes/fnegro.png);
+}
+.btn {
+    font-size: 1.5rem;
+    border-radius: .8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: inline-block;
+    margin: 5px;
+}
+header {
+    text-align: right;
+}
+.btn:hover {
+    opacity: .5;
+}
+.azul {
+    background: rgb(127, 132, 215);
+}
+.naranja {
+    background: orange;
+}
+.amarillo {
+    background: yellow;
+}
+.tex-img {
+    position: relative;
+    width: 2100px;
+    height: 800px;
+}
+.cajatexto {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 600px;
+    width: 600px;
+    border: 3px solid green;
+    display: inline-block;
+    background: bisque;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-size: 1.5rem;
+}
+.imagen {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    display: inline-block;
+    width: 40%;
+}
+.imagen:hover {
+    opacity: .6;
+}
+img {
+    width: 100%;
+    border-radius: 400px;
+}
+.footer {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(124, 90, 49);
+    text-overflow: ellipsis;
+}
